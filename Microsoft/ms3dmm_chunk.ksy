@@ -1,11 +1,17 @@
 meta:
-    id: ms3dmm_chunk
-    file-extension: 3dmm
-    endian: le
-    bit-endian: le
+  id: ms3dmm_chunk
+  file-extension: 3dmm
+  endian: le
+  bit-endian: le
 
-doc: Microsoft 3D Movie Maker Chunk File.
 doc-ref: https://github.com/foone/lib3dmm/blob/master/lib3dmm.py
+doc: |
+  Microsoft 3D Movie Maker chunkfile. It's a slightly backward table-and-chunk
+  container format that contains everything needed by a 3D Movie Maker scene.
+  The Kaitai Struct IDE fails to process the large files (~30mb), but a tool
+  created using this script shouldn't have any issues. More testing is needed.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: file_header

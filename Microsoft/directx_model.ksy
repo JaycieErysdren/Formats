@@ -1,10 +1,17 @@
 meta:
-  id: x_model
+  id: directx_model
   file-extension: x
   endian: le
   bit-endian: le
 
 doc-ref: https://learn.microsoft.com/en-us/windows/win32/direct3d9/dx9-graphics-reference-x-file-format
+doc: |
+  The "X" model format used by various DirectX games and tools from the late 1990s,
+  including Wild Ride: Surf Shack (the source of my test data). It's essentially
+  a binary version of a simple tokenized text format. There's also a text
+  version of the X model format, naturally, but I haven't looked into that.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: header

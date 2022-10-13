@@ -1,11 +1,17 @@
 meta:
-    id: valve_vpk
-    file-extension: vpk
-    endian: le
-    bit-endian: le
+  id: valve_vpk
+  file-extension: vpk
+  endian: le
+  bit-endian: le
 
-doc: Valve Software VPK (versions 1 and 2)
 doc-ref: https://developer.valvesoftware.com/wiki/VPK_File_Format
+doc: |
+  Valve Pack File, used by most Source Engine and Source 2 games.
+  This script supports versions 1 and 2. Files are stored uncompressed,
+  though a smaller "preload data" chunk may be found in certain
+  situations.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 # http://wiki.xentax.com/index.php/Source_VPK
 # https://github.com/SteamDatabase/ValveResourceFormat/tree/master/ValveResourceFormat

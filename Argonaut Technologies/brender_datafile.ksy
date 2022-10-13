@@ -5,6 +5,16 @@ meta:
   bit-endian: be
 
 doc-ref: fw/formats.h
+doc: |
+  This is a generic container format used by the BRender rendering engine created by
+  Argonaut Technologies. Internally, it's known as a "datafile".
+  It can contain models, pixelmaps, and actors.
+
+  It was also used by Carmageddon, and possibly Carmageddon 2.
+  Other BRender engine games may also make use of it.
+  I haven't checked many of them.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: chunks

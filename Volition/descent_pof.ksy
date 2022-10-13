@@ -1,8 +1,15 @@
 meta:
-    id: descent_pof
-    file-extension: pof
-    endian: le
-    bit-endian: le
+  id: descent_pof
+  file-extension: pof
+  endian: le
+  bit-endian: le
+
+doc: |
+  Descent POF file, primarily used to store model data.
+  Can also contain information about the guns that are present
+  on an enemy's model.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: magic

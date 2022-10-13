@@ -4,6 +4,12 @@ meta:
   endian: be
   bit-endian: be
 
+doc: |
+  Simple paletted bitmap used by Sega Saturn Quake, created by Lobotomy Software.
+  Contains a palette, width, height, and an array of pixels.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: palette
     type: palette_entry_t

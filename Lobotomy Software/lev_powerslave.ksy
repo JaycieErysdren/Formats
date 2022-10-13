@@ -4,6 +4,13 @@ meta:
   endian: be
   bit-endian: be
 
+doc: |
+  Level format used by Sega Saturn PowerSlave, created by Lobotomy Software.
+  Contains level mesh information, entities, textures, sounds, and other game data.
+  This format is not fully understood.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: sky_data
     type: sky_data_t

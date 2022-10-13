@@ -1,10 +1,15 @@
 meta:
-    id: descent_pal
-    file-extension: pal
-    endian: le
-    bit-endian: le
+  id: descent_pal
+  file-extension: pal
+  endian: le
+  bit-endian: le
 
 doc-ref: 2D/PALETTE.C
+doc: |
+  Descent palette file. It's an array of RGB values
+  as well as a fade (lighting) table.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: palette

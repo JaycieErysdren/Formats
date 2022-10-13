@@ -4,8 +4,14 @@ meta:
     endian: le
     bit-endian: le
 
-doc: Valve Software VPK (versions 1 and 2)
 doc-ref: src_main/worldcraft/mapdoc.cpp
+doc: |
+  Rich Map File used by WorldCraft from 1996 to ~2000.
+  Contains all the data needed to compile a Quake or
+  GoldSource engine map, including level geometry and
+  entitiy definitions.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 # https://developer.valvesoftware.com/wiki/Rich_Map_Format
 

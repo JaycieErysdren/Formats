@@ -4,6 +4,13 @@ meta:
   endian: le
   bit-endian: le
 
+doc: |
+  A multi-track AVI format used by D/Vision Pro. There are many
+  examples of this filetype, and even a few existing tools from
+  the 1990s, but I haven't taken the time to crack it yet.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: magic
     type: magic_t

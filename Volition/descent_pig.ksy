@@ -1,8 +1,15 @@
 meta:
-    id: descent_pig
-    file-extension: pig
-    endian: le
-    bit-endian: le
+  id: descent_pig
+  file-extension: pig
+  endian: le
+  bit-endian: le
+
+doc: |
+  Descent PIG file, used to store bitmaps and sounds.
+  The bitmaps can be run-length-encoded or stored
+  without compression.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: num_bitmaps

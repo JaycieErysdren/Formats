@@ -4,6 +4,12 @@ meta:
   endian: be
   bit-endian: be
 
+doc: |
+  A YUV image format used by D/Vision Pro. Only one example file is known to exist.
+  This script is horrendously unfinished.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: empty1
     size: 3840

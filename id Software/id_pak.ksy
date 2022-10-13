@@ -1,11 +1,15 @@
 meta:
-    id: id_pak
-    file-extension: pak
-    endian: le
-    bit-endian: le
+  id: id_pak
+  file-extension: pak
+  endian: le
+  bit-endian: le
 
-doc: id Software PAK
 doc-ref: https://quakewiki.org/wiki/.pak
+doc: |
+  id Software packfile version 1, used by Quake. A simple table
+  of files, stored uncompressed.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: header

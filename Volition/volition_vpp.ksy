@@ -1,11 +1,16 @@
 meta:
-    id: volition_vpp
-    file-extension: vpp_pc
-    endian: le
-    bit-endian: le
+  id: volition_vpp
+  file-extension: vpp_pc
+  endian: le
+  bit-endian: le
 
-doc: Volition VPP
 doc-ref: https://github.com/gibbed/Gibbed.Volition/tree/master/projects/Gibbed.Volition.FileFormats
+doc: |
+  Volition vpp_pc file, used by the PC versions of various Volition games.
+  This script only supports version 3. It's a simple uncompressed file container
+  format.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: magic

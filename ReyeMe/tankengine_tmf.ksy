@@ -4,6 +4,12 @@ meta:
   endian: be
   bit-endian: be
 
+doc: |
+  Model format used by the Tank Engine, an extension of the
+  Jo Engine for the Sega Saturn. Format originally authored by ReyeMe.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: header
     type: header_t

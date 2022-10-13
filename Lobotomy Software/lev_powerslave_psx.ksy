@@ -4,8 +4,13 @@ meta:
   endian: le
   bit-endian: le
 
-doc: PowerSlave (PlayStation) Level Format (.zed)
 doc-ref: https://github.com/svkaiser/PowerslaveEX/blob/master/scratchcode/scratch.cpp
+doc: |
+  Level format used by PSX PowerSlave, created by Lobotomy Software.
+  Contains level mesh information, entities, textures, sounds, and other game data.
+  This format is not fully understood.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: header

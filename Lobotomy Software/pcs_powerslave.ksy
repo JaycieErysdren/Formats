@@ -4,6 +4,13 @@ meta:
   endian: be
   bit-endian: be
 
+doc: |
+  Multiple-bitmap container used by Sega Saturn PowerSlave, created by Lobotomy Sofwtare.
+  Each bitmap contains a width, height, and an array of pixels. This format is not
+  fully understood.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: len_bitmaps
     type: u4

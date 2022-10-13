@@ -4,7 +4,12 @@ meta:
   endian: le
   bit-endian: le
 
-doc-ref: level.c
+doc-ref: https://sourceforge.net/p/portal2d/code/HEAD/tree/Source/level.c
+doc: |
+  This is the basic level format used by the Portal2D engine, created by Derek John Evans
+  over the summer of 1999.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
   - id: chunks

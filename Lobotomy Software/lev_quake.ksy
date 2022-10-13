@@ -4,6 +4,12 @@ meta:
   endian: be
   bit-endian: be
 
+doc: |
+  Level format used by Sega Saturn Quake, created by Lobotomy Software.
+  Contains level mesh information, entities, textures, sounds, and other game data.
+
+  Origin of this file: https://github.com/JaycieErysdren/Formats
+
 seq:
   - id: sky_data
     size: 131104
