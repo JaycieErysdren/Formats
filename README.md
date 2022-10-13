@@ -2,6 +2,8 @@
 
 A decently large collection of Kaitai Struct definitions files for various obscure binary formats, mostly related to videogames.
 
+**Disclaimer:** While most of these I'd consider finished, some of them are, to be totally honest, half-baked. Use them at your own peril.
+
 ## Format Descriptions
 
 | Category				| Filename					| Description													|
