@@ -30,6 +30,17 @@ A decently large collection of Kaitai Struct definitions files for various obscu
 | Volition				| descent_pof.ksy			| Model format used in Descent.									|
 | Volition				| volition_vpp.ksy			| Generic container format used by most Volition games.			|
 
+## Credits
+
+The following kind folks contributed to the Lobotomy Software format specifications:
+
+- Paril
+- ReyeMe
+- Rich Whitehouse
+- Spike
+- TheEnbyWitch
+- vfig
+
 ## License
 
 This repository is licensed with ACSL v1.4 - see [LICENSE](https://github.com/JaycieErysdren/Formats/blob/main/LICENSE) for details.
