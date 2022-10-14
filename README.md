@@ -17,6 +17,7 @@ A decently large collection of Kaitai Struct definitions files for various obscu
 | Lobotomy Software		| lev_quake.ksy				| Level file from Sega Saturn Quake.							|
 | Lobotomy Software		| pcs_powerslave.ksy		| Bitmap container from Sega Saturn PowerSlave.					|
 | Lobotomy Software		| pic_quake.ksy				| Bitmap container from Sega Saturn Quake.						|
+| Looking Glass Studios | lgs_res.ksy				| Looking Glass Resource File version 2, used in Thief 2. 		|
 | Microsoft				| directx_model.ksy			| "X" model format used in early DirectX games and tools.		|
 | Microsoft				| ms3dmm_chunk.ksy			| Generic container format used in Microsoft 3D Movie Maker.	|
 | ReyeMe				| tankengine_tmf.ksy		| Model format created for the Sega Saturn Tank Engine.			|
