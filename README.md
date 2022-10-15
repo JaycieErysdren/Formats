@@ -8,6 +8,7 @@ A decently large collection of Kaitai Struct definitions files for various obscu
 
 | Category				| Filename					| Description													|
 |-----------------------|---------------------------|---------------------------------------------------------------|
+| 3D Realms	            | build_map.ksy		        | BUILD engine level file, used by Duke Nukem 3D and others.	|
 | Argonaut Technologies	| brender_datafile.ksy		| Generic container format used in BRender and Carmageddon.		|
 | Derek John Evans		| portal2d_map.ksy			| Basic map file format used by the Portal2D engine.			|
 | id Software			| id_pak.ksy				| id packfile version 1, used in Quake.							|
