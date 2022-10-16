@@ -1,5 +1,5 @@
 meta:
-  id: id_pak
+  id: pak
   file-extension: pak
   endian: le
   bit-endian: le
