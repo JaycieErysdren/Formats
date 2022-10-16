@@ -12,6 +12,7 @@ A decently large collection of Kaitai Struct definitions files for various obscu
 | Argonaut Technologies	| brender_datafile.ksy		| Generic container format used in BRender and Carmageddon.		|
 | Derek John Evans		| portal2d_map.ksy			| Basic map file format used by the Portal2D engine.			|
 | id Software			| bsp.ksy				    | BSP level file, covers QTest to CSGO format iterations.       |
+| id Software			| mdl.ksy				    | Quake 1's model format.           							|
 | id Software			| pak.ksy				    | id packfile version 1, used in Quake.							|
 | id Software			| wal.ksy				    | Quake 2's texture format.         							|
 | Lobotomy Software		| lev_duke.ksy				| Level file from Sega Saturn Duke Nukem 3D.					|
