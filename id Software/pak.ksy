@@ -12,11 +12,11 @@ doc: |
   Origin of this file: https://github.com/JaycieErysdren/Formats
 
 seq:
-  - id: header
-    type: header_t
+  - id: pak_header
+    type: pak_header_t
 
 types:
-  header_t:
+  pak_header_t:
     seq:
       - id: magic
         contents: "PACK"
@@ -25,28 +25,29 @@ types:
       - id: len_file_table
         type: u4
 
-  file_table_t:
+  pak_file_table_entry_t:
     seq:
       - id: filepath
-        type: str
-        terminator: 0
-        encoding: ASCII
+        type: strz
+        size: 56
+        encoding: ascii
+      - id: ofs_file_data
+        type: u4
+      - id: len_file_data
+        type: u4
     instances:
-      ofs_file_data:
-        pos: 56
-        type: u4
-      len_file_data:
-        pos: 60
-        type: u4
-    #instances:
-    #  get_file_data:
-    #    pos: ofs_file_data
-    #    size: len_file_data
+      get_file_data:
+        io: _root._io
+        pos: ofs_file_data
+        size: len_file_data
 
 instances:
-  get_file_table:
-    pos: header.ofs_file_table
-    type: file_table_t
-    size: 64
+  pak_file_table_entry_size:
+    value: 64
+
+  pak_file_table:
+    pos: pak_header.ofs_file_table
+    type: pak_file_table_entry_t
+    size: pak_file_table_entry_size
     repeat: expr
-    repeat-expr: header.len_file_table / 64
+    repeat-expr: pak_header.len_file_table / pak_file_table_entry_size
