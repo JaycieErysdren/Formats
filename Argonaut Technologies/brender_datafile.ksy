@@ -80,6 +80,15 @@ types:
 
   rgb_t:
     seq:
+      - id: r
+        type: u1
+      - id: g
+        type: u1
+      - id: b
+        type: u1
+
+  argb_t:
+    seq:
       - id: a
         type: u1
       - id: r
@@ -145,6 +154,11 @@ types:
         if: len_pixel == 2
       - id: data_rgb
         type: rgb_t
+        repeat: expr
+        repeat-expr: (len_pixel * num_pixels) / 3
+        if: len_pixel == 3
+      - id: data_argb
+        type: argb_t
         repeat: expr
         repeat-expr: (len_pixel * num_pixels) / 4
         if: len_pixel == 4
