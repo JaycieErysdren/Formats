@@ -26,7 +26,7 @@ A decently large collection of Kaitai Struct definitions files for various obscu
 | Looking Glass Studios | lgs_res.ksy				| Looking Glass Resource File version 2, used in Thief 2. 		|
 | Microsoft				| directx_model.ksy			| "X" model format used in early DirectX games and tools.		|
 | Microsoft				| ms3dmm_chunk.ksy			| Generic container format used in Microsoft 3D Movie Maker.	|
-| ReyeMe				| tankengine_tmf.ksy		| Model format created for the Sega Saturn Tank Engine.			|
+| Tank Engine			| tmf.ksy		            | Model format created for the Sega Saturn Tank Engine.			|
 | TouchVision Systems	| dvision_avs.ksy			| Multi-track AVI video format used by D/Vision Pro.			|
 | TouchVision Systems	| dvision_uvi.ksy			| YUV image format used by D/Vision Pro.						|
 | Valve Software		| valve_rmf.ksy				| Rich Map File used by WorldCraft and Half-Life.				|

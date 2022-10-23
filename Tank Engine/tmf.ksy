@@ -1,5 +1,5 @@
 meta:
-  id: tankengine_tmf
+  id: tmf
   file-extension: tmf
   endian: be
   bit-endian: be
